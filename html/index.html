@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parquímetro</title>
+
+        <link rel="stylesheet" href="../style/style.css">
+
+        <script src="../script/parkingMeter.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Parquímetro</h1>
+            <section>
+                <div>
+                    <label for="value">Valor que deseja pagar:</label>
+                    <input type="text" id="value">
+
+                    <button onclick="pay()">Pagar</button>
+
+                    <br><br>
+                    <p id="message"></p>
+                </div>
+                
+                <div>
+                    <table>
+                        <tr>
+                            <th>Valor</th>
+                            <th>Tempo (minutos)</th>
+                        </tr>
+                        <tr>
+                            <td>R$ 1,00</td>
+                            <td>30 minutos</td>
+                        </tr>
+                        <tr>
+                            <td>R$ 1,75</td>
+                            <td>60 minutos</td>
+                        </tr>
+                        <tr>
+                            <td>R$ 3,00</td>
+                            <td>120 minutos (tempo máximo permitido)</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

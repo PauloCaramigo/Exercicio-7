@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+
+    font-family: Arial, sans-serif;
+}
+
+main {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+main h1 {
+    margin-bottom: 100px;
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+
+    width: 1000px;
+}
+
+main section input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main section button {
+    padding: 5px 30px;
+    border-radius: 5px
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table th, td {
+    width: 200px;
+    padding: 5px;
+}
