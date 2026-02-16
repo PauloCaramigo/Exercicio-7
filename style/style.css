@@ -37,7 +37,8 @@ main section input {
 
 main section button {
     padding: 5px 30px;
-    border-radius: 5px
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 table, th, td {
